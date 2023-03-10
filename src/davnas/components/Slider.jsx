@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 const message = [
   "Bienvenido a Davnas",
   "Consulta al whatsapp o instagram",
+  "20% off en tu primera visita",
 ]
 
 export const Slider = () => {
@@ -19,8 +20,8 @@ export const Slider = () => {
         setTimeout(() => {
             setshow(false);
         }
-            , 4000);
-    }, 5000);
+            , 5000);
+    }, 6000);
     return () => clearInterval(interval);
 
   }, [])
