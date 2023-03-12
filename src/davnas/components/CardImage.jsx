@@ -21,11 +21,11 @@ export const CardImage = ({card}) => {
       />
 
       <CardContent>
-        <Typography variant={"h7"} component={"div"}>
+        <Typography variant={"h7"} component={"div"} mb={1}>
           {card.price}
         </Typography>
 
-        <Typography variant={"body2"} color={"text.secondary"}>
+        <Typography variant={"body2"} color={"text.secondary"}  >
           {card.disclaimer}
         </Typography>
 

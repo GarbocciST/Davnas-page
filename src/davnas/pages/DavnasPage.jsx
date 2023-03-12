@@ -1,5 +1,5 @@
 import { Box} from "@mui/material"
-import { Banner, Footer, Cards, NavBar } from "../components"
+import { Banner, Icons, Cards, NavBar, Footer } from "../components"
 
 
 export const DavnasPage = () => {
@@ -15,6 +15,8 @@ export const DavnasPage = () => {
       <Banner />
 
       <Cards/>
+
+      <Icons />
 
       <Footer />
       

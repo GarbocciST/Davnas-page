@@ -9,7 +9,7 @@ export const nailsCard = [
     name: 'surtidas',
     img: '/surtidas.jpg',
     price: '$1500',
-    disclaimer: 'Distinto esmaltado semipermanente',
+    disclaimer: 'Distinto esmaltado semipermanente con distintos diseños',
    },
    {
     name: 'estrases',
